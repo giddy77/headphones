@@ -1,0 +1,35 @@
+@media (max-width: 480px) {
+  /* Styles to apply when screen width is 480px or less */
+  /* Hide desktop-specific elements */
+  .desktop-element {
+    display: none;
+  }
+
+  /* Show mobile-specific elements */
+  .mobile-element {
+    display: block;
+  }
+}
+
+a:hover,
+a:active {
+  color: #FF6565;
+}
+
+button:hover,
+button:active {
+  opacity: 0.9;
+}
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
