@@ -52,6 +52,7 @@ button:active {
 
 .section-header {
     background-image: url(images/headphones_hero_1.jpg);
+    /* Specify the path to your shared background image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -140,4 +141,17 @@ button:active {
 .contact-us input{
     display: block;
     
+}
+.section-footer{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.footer-logo{
+    display: flex;
+    justify-content: flex-start;
+}
+.socials{
+    display: flex;
+    justify-content: flex-end;
 }
