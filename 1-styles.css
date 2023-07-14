@@ -1,0 +1,102 @@
+@media (max-width: 480px) {
+    /* Styles to apply when screen width is 480px or less */
+    /* Hide desktop-specific elements */
+    .desktop-element {
+      display: none;
+    }
+  
+    /* Show mobile-specific elements */
+    .mobile-element {
+      display: block;
+    }
+  }
+  
+  a:hover,
+  a:active {
+    color: #FF6565;
+  }
+  
+  button:hover,
+  button:active {
+    opacity: 0.9;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .header-container{
+    display: flex;
+    align-items: center;
+  
+    margin-bottom: 200px;
+    /* justify-content: flex-end; */
+  }
+  
+  .navbar-menu {
+    margin-left: auto;
+    display: inline-block;
+  }
+  
+  .nav {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-item {
+    margin-right: 15px;
+  }
+  
+  .section-header {
+    background-image: url(images/headphones_hero_1.jpg); /* Specify the path to your shared background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .section-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section-inner{
+    flex-wrap: wrap;
+  }
+  
+  .section-inner p {
+    padding-bottom: 50px;
+  }
+  
+  .button{
+    background-color: #FF6565;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px; 
+  }
+  .what-we-do h4{
+    display: flex;
+    justify-content: center;
+  }
+  
+.what-we-do p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+  
+  
+  
+  
+  
